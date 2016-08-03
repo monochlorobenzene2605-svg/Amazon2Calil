@@ -24,5 +24,5 @@ function isBookPage(){
 }
 
 function getIsbn(){
-  return parseInt($(isbnSelector).text().slice(-10));
+  return $(isbnSelector).text().slice(-10);
 }
